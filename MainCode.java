@@ -4,12 +4,12 @@ import java.awt.event.*;
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 
-public class NewJPanel extends JPanel implements ActionListener {
+public class MainCode extends JPanel implements ActionListener {
     private final JTextField display;
     private String currentInput = "";
     private boolean resetNext = false;
 
-    public NewJPanel() {
+    public MainCode() {
         setLayout(new BorderLayout(10, 10));
         setBackground(Color.LIGHT_GRAY);
 
